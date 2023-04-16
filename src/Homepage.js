@@ -1,4 +1,7 @@
 import React from 'react';
+import "./Home.css";
+
+
 
 const Homepage = () => {
   const images = [
@@ -6,46 +9,57 @@ const Homepage = () => {
       id: 1,
       title: 'Image 1',
       description: 'Description for image 1',
-      imageUrl: 'https://example.com/image1.jpg',
+      imageUrl: "./image/fileOne.jpg"
     },
     {
       id: 2,
       title: 'Image 2',
       description: 'Description for image 2',
-      imageUrl: 'https://example.com/image2.jpg',
+      imageUrl: './image/fileTwo.jpg',
     },
     {
       id: 3,
       title: 'Image 3',
       description: 'Description for image 3',
-      imageUrl: 'https://example.com/image3.jpg',
+      imageUrl: './image/fileThree.jpg',
     },
     {
       id: 4,
       title: 'Image 4',
       description: 'Description for image 4',
-      imageUrl: 'https://example.com/image4.jpg',
+      imageUrl: './image/fileFour.jpg',
     },
     {
       id: 5,
       title: 'Image 5',
       description: 'Description for image 5',
-      imageUrl: 'https://example.com/image5.jpg',
+      imageUrl: './image/fileFive.jpg',
     },
     {
       id: 6,
       title: 'Image 6',
       description: 'Description for image 6',
-      imageUrl: 'https://example.com/image6.jpg',
+      imageUrl: './image/fileSix.jpg',
+    },
+    {
+      id: 7,
+      title: 'Image 6',
+      description: 'Description for image 6',
+      imageUrl: './image/fileThree.jpg',
+    },
+    {
+      id: 8,
+      title: 'Image 6',
+      description: 'Description for image 6',
+      imageUrl: './image/cover.jpg',
     },
   ];
 
   return (
-    <div>
+    <body>
       {/* Header */}
       <header>
         <div>
-          <img src="https://example.com/cover-photo.jpg" alt="Cover photo" />
           <h1>The Journal</h1>
         </div>
         <nav>
@@ -67,32 +81,46 @@ const Homepage = () => {
           <h2>Latest news</h2>
           <h3>Don't miss a thing!</h3>
         </div>
+        <div className='container'>
         <section className="imageSection">
           {images.map((image) => (
-            <div key={`image${image.id}`} className={`image${image.id}`}>
+            <div key={`image${image.id}`} className={`image ${image.id}`}>
+              <h4>{image.title}</h4>
               <img src={image.imageUrl} alt={image.title} />
               <div>
-                <h4>{image.title}</h4>
                 <p>{image.description}</p>
               </div>
             </div>
+            
           ))}
+          
         </section>
-        <aside className="sideSection">
-          <div>
+          <div className="sideSection">
             <h4>Random links</h4>
             <div>
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-              <a href="#">Link 4</a>
-              <a href="#">Link 5</a>
-              <a href="#">Link 6</a>
-              <a href="#">Link 7</a>
-              <a href="#">Link 8</a>
+              <a href="https //www.microsoft.com/link">https //www.microsoft.com/link</a>
+              <a href="https //www.microsoft.com/link">https //www.microsoft.com/link</a>
+              <a href="https //www.microsoft.com/link">https //www.microsoft.com/link</a>
+              <a href="https //www.microsoft.com/link">https //www.microsoft.com/link</a>
+              <a href="https //www.microsoft.com/link">https //www.microsoft.com/link</a>
+              <a href="https //www.microsoft.com/link">https //www.microsoft.com/link</a>
+              <a href="https //www.microsoft.com/link">https //www.microsoft.com/link</a>
+              <a href="https //www.microsoft.com/link">https //www.microsoft.com/link</a>
+              <a href="https //www.microsoft.com/link">https //www.microsoft.com/link</a>
+              <a href="https //www.microsoft.com/link">https //www.microsoft.com/link</a>
+              <a href="https //www.microsoft.com/link">https //www.microsoft.com/link</a>
+              <a href="https //www.microsoft.com/link">https //www.microsoft.com/link</a>
+              <a href="https //www.microsoft.com/link">https //www.microsoft.com/link</a>
+              <a href="https //www.microsoft.com/link">https //www.microsoft.com/link</a>
+              <a href="https //www.microsoft.com/link">https //www.microsoft.com/link</a>
+              <a href="https //www.microsoft.com/link">https //www.microsoft.com/link</a>
+              <a href="https //www.microsoft.com/link">https //www.microsoft.com/link</a>
+              <a href="https //www.microsoft.com/link">https //www.microsoft.com/link</a>
+              <a href="https //www.microsoft.com/link">https //www.microsoft.com/link</a>
+              <a href="https //www.microsoft.com/link">https //www.microsoft.com/link</a>
             </div>
           </div>
-        </aside>
+        </div>
       </main>
 
       {/* Footer */}
@@ -102,11 +130,15 @@ const Homepage = () => {
           <p>Information about the website.</p>
         </div>
         <div>
+          <h4>Jobs</h4>
+          <p>work with us.</p>
+        </div>
+        <div>
           <h4>Contact us</h4>
           <p>Contact information.</p>
         </div>
         </footer>
-    </div>
+    </body>
   )}
 
   export default Homepage;
