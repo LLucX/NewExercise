@@ -53,6 +53,13 @@ const Homepage = () => {
       description: 'Description for image 6',
       imageUrl: './image/cover.jpg',
     },
+    {
+      id: 9,
+      title: 'Image 6',
+      description: 'Description for image 6',
+      imageUrl: './image/cover.jpg',
+    },
+    
   ];
 
   return (
