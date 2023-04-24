@@ -5,11 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './Homepage';
 import Homepage from './Homepage';
+import PageAirbnb from "./pageAirbnb"
+import "./airBnb.css"
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Homepage/>
+    <PageAirbnb/>
   </React.StrictMode>
 );
 
