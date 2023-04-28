@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./airbnb/navbar"
 import Main from "./airbnb/main"
+import ImageSection from "./airbnb/imageSection"
 
 
 
@@ -9,6 +10,7 @@ const airBnbPage = () =>{
         <body>
             <Navbar/>
             <Main/>
+            <ImageSection/> 
         </body>
     )
 }
