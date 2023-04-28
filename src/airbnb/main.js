@@ -3,7 +3,7 @@ import React from "react";
  const main = () =>{
     return(
 <main>
-    <img src="./images/mainPhoto.png"/>
+    <div></div>
 </main>
     )
 }
