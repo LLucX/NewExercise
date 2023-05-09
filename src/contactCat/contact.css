@@ -1,0 +1,40 @@
+
+html{
+background-color: rgb(126, 120, 120);
+}
+.contact-cat-body{
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    position: absolute;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 550px;
+    height: 700px;
+    box-shadow: 20px 20px 20px 20px rgba(20, 18, 18, 0.1);
+}
+
+.cat-container{
+    margin: 30px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 10.98256px 15.4564px rgba(0, 0, 0, 0.1);
+}
+
+.cat-container img{
+    width: 100%;
+}
+
+.phone-contact img,
+.email-contact img {
+    width: 20px;
+}
+
+.phone-contact,
+.email-contact{
+    display: flex;
+    margin: 10px;
+}
+

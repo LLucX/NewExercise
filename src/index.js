@@ -1,18 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 //import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 //import './Homepage';
 //import Homepage from './Homepage';
-import PageAirbnb from "./pageAirbnb"
-import "./airBnb.css"
+//import PageAirbnb from "./pageAirbnb"
+//import "./airBnb.css"
+//import "./propsExercise/props.css"
+//import Props from "./propsExercise/props"
+import ContactCat from "./contactCat/contact"
+import "./contactCat/contact.css"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <PageAirbnb/>
+    <ContactCat/>
   </React.StrictMode>
 );
 
