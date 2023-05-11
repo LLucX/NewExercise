@@ -4,18 +4,20 @@ import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 //import './Homepage';
 //import Homepage from './Homepage';
-//import PageAirbnb from "./pageAirbnb"
-//import "./airBnb.css"
+import PageAirbnb from "./pageAirbnb"
+import "./airBnb.css"
 //import "./propsExercise/props.css"
 //import Props from "./propsExercise/props"
-import ContactCat from "./contactCat/contact"
-import "./contactCat/contact.css"
+//import ContactCat from "./contactCat/contact"
+//import "./contactCat/contact.css"
+//import MathPage from "./mathExercise/math"
+//import "./mathExercise/math.css"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ContactCat/>
+    <PageAirbnb/>
   </React.StrictMode>
 );
 

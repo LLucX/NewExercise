@@ -4,18 +4,19 @@
 }
 
 html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(202, 201, 199);
-    position: relative;
-    padding: 50px;
+    
 }
 
 body{
-    position: absolute;
-    width:fit-content ;
     display: block;
     background-color: #FFFFFF;
     border: 2px solid black;
     border-radius: 5%;
+    height: 800px;
 }
 nav{
 position: relative;
@@ -65,35 +66,30 @@ font-size: 36px;
 line-height: 110%;
 }
 
-p{
-width: 347px;
-height: 40px;
-left: 36px;
-top: 250px;
-}
-
 .container{
 display:flex ;
 justify-content: space-between;
 width: 100%;
-height: 300px;
+height: auto;
 }
 
 .imageContainer{
-    position: relative;
     width: 180px;
-    height: 100%;
+    height: auto;
 }
 
-.imageContainer p{
-    position: absolute;
-    left: 40%;
-    color: black;
+.commentSection{
+    display: flex;
 }
 
 #star{
 width: 20px;
 height: 20px;
+}
+
+span,p,#star{
+    margin-left: 10px;
+    font-size: 12px;
 }
 
 .container img{
