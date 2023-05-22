@@ -10,6 +10,8 @@ import reportWebVitals from './reportWebVitals';
 //import Props from "./propsExercise/props"
 import ContactCat from "./contactCat/contact"
 import "./contactCat/contact.css"
+//import Test from "./test/test"
+//import "./test/test.css"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
