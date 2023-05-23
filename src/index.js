@@ -8,16 +8,16 @@ import reportWebVitals from './reportWebVitals';
 //import "./airBnb.css"
 //import "./propsExercise/props.css"
 //import Props from "./propsExercise/props"
-import ContactCat from "./contactCat/contact"
-import "./contactCat/contact.css"
-//import Test from "./test/test"
-//import "./test/test.css"
+//import ContactCat from "./contactCat/contact"
+//import "./contactCat/contact.css"
+ import TravelJourney from "./travelJourney/travelJorney"
+ import "./travelJourney/travelJorney.css"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ContactCat/>
+  <TravelJourney/>
   </React.StrictMode>
 );
 

@@ -1,0 +1,60 @@
+
+html{
+font-size: 20px;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+
+
+
+
+
+nav{
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F55A5A;
+    grid-column: 1 / 9; /* span 2 columns */
+    grid-row: 1 / 1 /* start at row 1 */
+}
+
+
+main{
+grid-column: 1/ 9;
+grid-row: 2 / 9
+}
+
+
+/*bellow is card section*/
+
+nav img{
+    height: 80px;
+    width: 80px;
+    color: white;
+}
+
+nav p{
+    font-family: 'Inter';
+    font-size: 2.5rem;
+    margin-left: 10px;
+    color: white;
+}
+
+.card-container{
+    margin-left:150px;
+    padding: 50px;
+    margin-bottom: 2px solid black;
+}
+
+
+
+
+
