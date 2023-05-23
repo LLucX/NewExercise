@@ -1,0 +1,12 @@
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    position: relative;
+}
+
+h3{
+    margin: 30px;
+}
