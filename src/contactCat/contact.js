@@ -11,12 +11,9 @@ const contactCat = () => {
 
         const id = index + 1;
         return < Contact 
-        img={ele.img} 
-        name={ele.name} 
-        phone={ele.phone}
-        email={ele.email} 
-        sold={ele.sold}
-        key={id}/>
+        key={id}
+        {...ele}
+         />
     })
 
     return (

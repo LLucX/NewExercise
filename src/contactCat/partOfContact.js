@@ -2,6 +2,8 @@
 import React from "react";
 
 const contact = (props) =>{
+
+    console.log(props)
     
     return(
         <div className="cat-container">
