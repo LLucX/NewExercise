@@ -6,7 +6,7 @@ const card = () => {
     return (
         <div className="card-container">
             <div className="card-image">
-                <img src="./traveljorney/travelOne.jpeg" />
+                <img src="./travelJorney/travelOne.jpeg" />
             </div>
             <div className="card-description">
                 <div className="card-location">
