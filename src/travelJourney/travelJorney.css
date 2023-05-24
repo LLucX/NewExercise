@@ -1,6 +1,6 @@
 
 html{
-font-size:'';
+font-size:20px;
 }
 
 
@@ -50,12 +50,12 @@ nav p{
     padding-bottom: 70px;
     display: flex;
     width: 40%;
-    height: auto;
+    height: 60%;
     border-bottom: 0.5px solid rgb(166, 161, 161);
 }
 
 .card-container img{
-    height: 80%;
+    height: 90%;
     width: auto;
 }
 
@@ -84,6 +84,8 @@ nav p{
 
 .card-description p{
     font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
 }
 
 .card-description h1{
@@ -91,8 +93,8 @@ nav p{
 }
 
 .card-description img{
-    height: 40px;
-    width: 40px;
+    height: 5%;
+    width: 5%;
 }
 
 
