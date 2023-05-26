@@ -4,6 +4,13 @@ import logo from "./logo.svg"
 
 import Card from "./travelCard.js";
 
+import travelData from "./travelJorneyData";
+
+
+const component = travelData.map(comp =>{
+    return < Card {...comp}/>
+})
+
 
 
 
@@ -20,7 +27,7 @@ const travelJorney = () => {
             </nav>
 
             <main>
-                <Card />
+                {component}
             </main>
 
         </body>
