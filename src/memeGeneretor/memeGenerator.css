@@ -48,11 +48,12 @@ input{
     margin-right: 90px;
     padding: 15px 90px;
     border-radius: 5px;
+    border: 2px solid black;
 
 }
 
 
-form{
+.form{
     display: flex;
     align-items: center;
     justify-content: center;
