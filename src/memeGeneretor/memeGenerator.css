@@ -1,6 +1,7 @@
 @font-face {
     font-family:'lucasFont' ;
-    src: url(fonts/impact.ttf);
+    src: url(fonts/impact.ttf) format(truetype);
+    font-weight: bold;
 }
 
 nav{
@@ -91,15 +92,15 @@ button{
 
 .image-container .one{
     position: absolute;
-    width: 106px;
-    height: 39px;
-    left: 390px;
+    width: 200px;
+    height: 80px;
+    left: 350px;
     top: 20px;
     
     font-family: 'lucasFont';
     font-style: normal;
     font-weight: 900;
-    font-size: 32px;
+    font-size: 60px;
     line-height: 39px;
     /* identical to box height */
     
@@ -108,15 +109,15 @@ button{
 
 .image-container .two{
     position: absolute;
-    width: 255px;
-    height: 39px;
-    left: 300px;
-    bottom: 60px;
+    width: 500px;
+    height: 80px;
+    left: 200px;
+    bottom: 20px;
     
     font-family: 'lucasFont';
     font-style: normal;
     font-weight: 900;
-    font-size: 32px;
+    font-size: 60px;
     line-height: 39px;
     /* identical to box height */
     
@@ -128,7 +129,7 @@ button{
 
 .image-container p{
     color: #FFFFFF;
-    text-shadow: 5px 0 0 #000, 0 -5px 0 #000, 0 5px 0 #000, -5px 0 0 #000
+    text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
 
 }
 
