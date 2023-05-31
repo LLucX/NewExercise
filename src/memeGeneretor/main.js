@@ -22,7 +22,7 @@ const main = () => {
                             <input type="text" placeholder="other meme" />
                         </div>
                         <button className="btn">Get a new image</button>
-                    </form>
+                    </div>
                 </div>
                 <div className="image-container">
                     <p className="one">SHUT UP</p>
