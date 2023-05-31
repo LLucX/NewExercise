@@ -9,6 +9,9 @@ const main = () => {
 
     console.log("I'm here")
 
+    const handClick = () =>{
+        return console.log("oi estou aqui")
+    }
     return (
         <main>
             <div className="main-container">
@@ -18,11 +21,13 @@ const main = () => {
                             <input type="text" placeholder="meme" />
                             <input type="text" placeholder="other meme" />
                         </div>
-                        <button onClick={whenClicked} className="btn">Get a new image</button>
-                    </div>
+                        <button className="btn">Get a new image</button>
+                    </form>
                 </div>
                 <div className="image-container">
+                    <p className="one">SHUT UP</p>
                     <img src="./memeImage/memeOne.jpeg" alt="memePhoto" />
+                    <p className="two">AND TAKE MY MONEY</p>
                 </div>
             </div>
         </main>
