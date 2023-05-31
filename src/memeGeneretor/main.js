@@ -18,7 +18,9 @@ const main = () => {
                     </div>
                 </div>
                 <div className="image-container">
+                    <p className="one">SHUT UP</p>
                     <img src="./memeImage/memeOne.jpeg" alt="memePhoto" />
+                    <p className="two">AND TAKE MY MONEY</p>
                 </div>
             </div>
         </main>
