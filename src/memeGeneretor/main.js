@@ -2,6 +2,13 @@ import React from "react";
 
 
 const main = () => {
+
+    const whenClicked = ()=>{
+        return console.log("I was clicked")
+    }
+
+    console.log("I'm here")
+
     const handClick = () =>{
         return console.log("oi estou aqui")
     }
@@ -18,7 +25,7 @@ const main = () => {
                             <input type="text" placeholder="meme" />
                             <input type="text" placeholder="other meme" />
                         </div>
-                        <button onClick={handClick} className="btn">Get a new image</button>
+                        <button className="btn">Get a new image</button>
                     </div>
                 </div>
                 <div className="image-container">
