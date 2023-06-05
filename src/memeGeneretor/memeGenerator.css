@@ -10,7 +10,6 @@ html{
 }
 
 body{
-    background-color: aquamarine;
     height: 900px;
     width: 2200px;
     display: grid;
@@ -152,6 +151,121 @@ button{
 .image-container p{
     color: #FFFFFF;
     text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
+
+}
+
+
+
+@media(max-width:1366px) {
+
+    body{
+        width: 1366px;
+        height: 1200px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+        
+    nav{
+        grid-column: 1 / 6; /* span 2 columns */
+        grid-row: 1 / 2 /* start at row 1 */
+}
+
+.nav-image-container{
+    margin-left: 20px;
+}
+
+.nav-image-container img{
+    width: 80px;
+}
+
+.nav-image-container h1{
+ font-size: 80px;
+}
+
+main{
+    margin-top: 200px;
+    grid-column: 1 / 6; /* span 2 columns */
+    grid-row: 3 / 6; /* start at row 1 */
+}
+
+.main-container{
+    height: 90%;
+    width: 100%;
+}
+
+.form-section{
+    width:65%;
+    margin-bottom: 200px;
+}
+
+.input-field{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    margin: 10px;
+    padding: 15px 100px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width:45%;
+}
+
+
+.form{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+button{
+    position: absolute;
+    top:150px;
+    left: 50px;
+    padding: 20px ;
+    width: 90%;
+}
+
+.image-container img{
+    width: 800px;
+}
+
+
+.image-container .one{
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    left: 270px;
+    top: 5px;
+    
+    font-family: 'lucasFont';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 39px;
+    
+    
+    
+}
+
+.image-container .two{
+    position: absolute;
+    width: 500px;
+    height: 80px;
+    left: 120px;
+    bottom: -20px;
+    
+    font-family: 'lucasFont';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 39px;
+    
+    
+    text-align: center;
+       
+}
 
 }
 
