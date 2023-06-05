@@ -12,6 +12,10 @@ const main = () => {
     const handClick = () =>{
         return console.log("oi estou aqui")
     }
+
+    const mouseOver =() =>{
+        console.log("on mouse Over")
+    }
     return (
         <main>
             <div className="main-container">
@@ -26,7 +30,9 @@ const main = () => {
                 </div>
                 <div className="image-container">
                     <p className="one">SHUT UP</p>
-                    <img src="./memeImage/memeOne.jpeg" alt="memePhoto" />
+                    <img
+                    onMouseOver={mouseOver}
+                    src="./memeImage/memeOne.jpeg" alt="memePhoto" />
                     <p className="two">AND TAKE MY MONEY</p>
                 </div>
             </div>
