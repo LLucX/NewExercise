@@ -22,6 +22,7 @@ nav{
     width: 100px;
 }
 
+
 .nav-image-container h1{
  font-size: 60px;
  color: white;
@@ -49,6 +50,14 @@ main{
     margin-bottom: 250px;
 }
 
+
+
+.image-container{
+    position: relative;
+}
+
+    
+
 .input-field{
     width: 100%;
     display: flex;
@@ -63,6 +72,7 @@ input{
     border: 1px solid black;
     width:45%;
 }
+
 
 
 form{
@@ -85,9 +95,7 @@ button{
     cursor: pointer;
 }
 
-.image-container{
-    position: relative;
-}
+
 
 .image-container .one{
     position: absolute;
@@ -131,6 +139,75 @@ button{
     text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
 
 }
+
+
+@media(max-width:1366px){
+    nav{
+        height: 80px;
+    }
+    .nav-image-container img{
+        width: 70px;
+    }
+
+    .nav-image-container h1{
+        font-size: 40px;
+       }
+
+       main{
+        height: 300px;
+       }
+
+    .form-section{
+        margin-bottom:200px;
+    }
+
+    button{
+        position: absolute;
+        top:300px;
+        padding: 20px ;
+        width: 50%;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+
+    .image-container img{
+        width: 100%;
+    }
+
+
+    }
+
+    @media(max-width: 410px){
+        nav{
+            height: 80px;
+        }
+        .nav-image-container img{
+            width: 40px;
+        }
+    
+        .nav-image-container h1{
+            font-size: 30px;
+           }
+    
+        .form-section{
+            margin-bottom: 500px;
+        }
+    
+        button{
+            position: absolute;
+            top:300px;
+            padding: 20px ;
+            width: 50%;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+    
+        .image-container img{
+            width: 100%;
+        }
+    
+    
+        }
 
 /* 4:57:20 */ 
 
