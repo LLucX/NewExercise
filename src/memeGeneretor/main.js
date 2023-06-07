@@ -1,21 +1,21 @@
 import React from "react";
 
+import memeData from "./memesData"
 
-const main = () => {
 
-    const whenClicked = ()=>{
-        return console.log("I was clicked")
+
+
+const main = (props) => {
+
+
+    const getImage = ()=>{
+        const memeArr = memeData
+        const random = Math.floor(Math.random() * memeArr.length)
+        const urlUpdated = memeArr[random].image
+        return urlUpdated
     }
 
-    console.log("I'm here")
-
-    const handClick = () =>{
-        return console.log("oi estou aqui")
-    }
-
-    const mouseOver =() =>{
-        console.log("on mouse Over")
-    }
+   
     return (
         <main>
             <div className="main-container">
@@ -25,20 +25,19 @@ const main = () => {
                             <input type="text" placeholder="meme" />
                             <input type="text" placeholder="other meme" />
                         </div>
-                        <button className="btn">Get a new image</button>
+                        <button onClick={getImage} className="btn">Get a new meme image  🖼</button>
                     </div>
                 </div>
                 <div className="image-container">
                     <p className="one">SHUT UP</p>
-                    <img
-                    onMouseOver={mouseOver}
-                    src="./memeImage/memeOne.jpeg" alt="memePhoto" />
+                    <img src="edf" alt="memePhoto" />
                     <p className="two">AND TAKE MY MONEY</p>
                 </div>
             </div>
         </main>
     )
 }
+
 
 
 export default main
