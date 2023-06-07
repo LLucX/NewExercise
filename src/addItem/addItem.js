@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 
 {/*const addItem = () => {
 
@@ -26,12 +26,18 @@ import React from "react";
 
 
 
-export default function app(){
+export default function App(){
+
+  const [isImportant, setIsmportant] = useState("yes")
+
+  const handleClick = () =>{
+    setIsmportant("NO")
+  }
   return(
     <div className="state">
       <h1 className="state-title">Is importan to know?</h1>
-      <div className="state-value">
-        <h1>yes</h1>
+      <div onClick={handleClick} className="state-value">
+        <h1>{isImportant}</h1>
       </div>
     </div>
   )
