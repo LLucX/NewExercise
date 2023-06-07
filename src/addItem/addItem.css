@@ -43,7 +43,7 @@ p{
     cursor: pointer;
 } */
 
-body{
+/*body{
     background-color: black;
     display: flex;
     justify-content: center;
@@ -82,4 +82,43 @@ h1{
     font-size: 45px;
     color: white;
     font-weight: 900;
+}*/
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.counter-main{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.counter-buttons{
+    position: absolute;
+    bottom: 10px;
+    width: 400px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(185, 170, 170);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 
 {/*const addItem = () => {
 
@@ -26,7 +26,7 @@ import React, {useState} from "react";
 
 
 
-export default function App(){
+{/*export default function App(){
 
   const [isImportant, setIsmportant] = useState("yes")
 
@@ -38,6 +38,23 @@ export default function App(){
       <h1 className="state-title">Is importan to know?</h1>
       <div onClick={handleClick} className="state-value">
         <h1>{isImportant}</h1>
+      </div>
+    </div>
+  )
+} */}
+
+
+export default function App() {
+  return (
+    <div className="counter-main">
+      <h1>0</h1>
+      <div className="counter-buttons">
+        <div className="counter">
+          +
+        </div>
+        <div className="counter">
+          -
+        </div>
       </div>
     </div>
   )
