@@ -1,4 +1,4 @@
-/*html{
+ html{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -19,7 +19,7 @@ button{
     color: white;
     font-size: 45px;
     position: absolute;
-    top: 230px;
+    top: 100px;
     border-radius: 20px;
 }
 
@@ -31,17 +31,17 @@ button:hover{
 
 .containerP{
     position: absolute;
-    top: 350px;
+    top: 230px;
     width: 150px;
     height: auto;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 20px;
     color: white;
 }
 
 p{
     cursor: pointer;
-} */
+} 
 
 /*body{
     background-color: black;
@@ -82,9 +82,9 @@ h1{
     font-size: 45px;
     color: white;
     font-weight: 900;
-}*/
+}
 
-body{
+{/*body{
     background-color: black;
     display: flex;
     justify-content: center;
@@ -102,6 +102,7 @@ body{
     justify-content: center;
     align-items: center;
     position: relative;
+    font-size: 100px;
 }
 
 .counter-buttons{
@@ -121,4 +122,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size:90px ;
+    color: white;
+    cursor: pointer;
 }
+
+.counter:hover{
+    background-color: rgb(75, 67, 67);;
+} */

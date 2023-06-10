@@ -1,28 +1,32 @@
 import React, { useState } from "react";
 
-{/*const addItem = () => {
-
-    const thingsArray = ["thing1", "thing2","thing3"]
+  const AddItem = () => {
+    
+    const arryitem = ["thing1","thing2","thing3"]
+    const [item, setItem] = useState(arryitem);
+    const [num, setNum] = useState(4)
 
     const addItem = () =>{
-      const thingsText = `thing ${thingsArray.length + 1}`
-      thingsArray.push(thingsText)
+      const newItem = "items"+num;
+      setItem(prevItems => [...prevItems , newItem])
+      setNum(prevNum => prevNum + 1 )
+  
     }
-
-    console.log(thingsArray)
-
-    let items = thingsArray.map(element => <p>{element}</p>)
-
 
   return (
     <body>
       <button onClick={addItem} >add item</button>
       <div className="containerP">
-        {items}
+        {item.map((element,index)=>{
+          return <div key={index} className="item">{index +1 +") " + element}</div>
+        })}
       </div>
     </body>
   ); 
-}; */}
+}
+
+
+export default AddItem
 
 
 
@@ -41,21 +45,38 @@ import React, { useState } from "react";
       </div>
     </div>
   )
-} */}
+} 
 
 
-export default function App() {
+
+ export default function App() {
+
+  const [count , setCount] = useState(0) 
+
+  const add = () =>{
+    setCount(function(preValue){
+      return preValue + 1
+    })
+  } 
+
+  const reduce = () =>{
+    setCount(preValue => preValue - 1)
+  } 
+
+
+  
+
   return (
     <div className="counter-main">
-      <h1>0</h1>
+      <h1>{count}</h1>
       <div className="counter-buttons">
-        <div className="counter">
+        <div onClick={add} className="counter">
           +
         </div>
-        <div className="counter">
+        <div onClick={reduce} className="counter">
           -
         </div>
       </div>
     </div>
   )
-}
+} */}
