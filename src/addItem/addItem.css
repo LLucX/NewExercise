@@ -32,6 +32,7 @@ button:hover{
 .containerP{
     position: absolute;
     top: 230px;
+    left: -150px;
     width: 150px;
     height: auto;
     font-weight: 600;
@@ -41,7 +42,26 @@ button:hover{
 
 p{
     cursor: pointer;
-} 
+}
+
+.item{
+    border: 0.5px solid white;
+    margin: 15px;
+    display: flex;
+    width: 280px;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.delete{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.delete:hover{
+    color: red;
+    font-size: 22px;
+}
 
 /*body{
     background-color: black;
