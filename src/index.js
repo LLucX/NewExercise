@@ -10,18 +10,20 @@ import reportWebVitals from './reportWebVitals';
 //import Props from "./propsExercise/props"
 //import ContactCat from "./contactCat/contact"
 //import "./contactCat/contact.css"
- //import TravelJourney from "./travelJourney/travelJorney"
- //import "./travelJourney/travelJorney.css"
- //import MemeGeneretor from './memeGeneretor/memeGeneretor';
- //import "./memeGeneretor/memeGenerator.css"
-import AddItem from "./addItem/addItem"
-import "./addItem/addItem.css"
+//import TravelJourney from "./travelJourney/travelJorney"
+//import "./travelJourney/travelJorney.css"
+//import MemeGeneretor from './memeGeneretor/memeGeneretor';
+//import "./memeGeneretor/memeGenerator.css"
+//import AddItem from "./addItem/addItem"
+//import "./addItem/addItem.css"
+import ColorPicker from './colorPicker/colorPicker';
+import "./colorPicker/colorPicker.css"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <AddItem/>
+    <ColorPicker/>
   </React.StrictMode>
 );
 
