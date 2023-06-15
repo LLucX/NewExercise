@@ -14,10 +14,6 @@ const component = travelData.map(comp =>{
 
 
 
-
-
-
-
 const travelJorney = () => {
     return (
         <body>
