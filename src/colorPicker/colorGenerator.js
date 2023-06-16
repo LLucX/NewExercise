@@ -4,7 +4,7 @@ import React, {useState} from "react";
 
 const ColorGenerator = (props) =>{
 
-    const [randomColor, setRandomColor] = useState(generateRandomColor());
+    const [randomColor, setRandomColor] = useState("black");
 
   function generateRandomColor() {
     const red = Math.floor(Math.random() * 256);
@@ -21,15 +21,13 @@ const ColorGenerator = (props) =>{
 
         
 return(
-    <div className="container-generator">
-        <div className="container-pallets">
             <div style={{backgroundColor:randomColor}} className="box-pallets">
                 {props.name}
-            </div>
-        </div>
-        <button onClick={handleClick}>something</button>
-    </div>
+            </div>      
 )
 }
 
 export default ColorGenerator;
+
+
+
