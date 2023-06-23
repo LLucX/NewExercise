@@ -14,16 +14,18 @@ import reportWebVitals from './reportWebVitals';
 //import "./travelJourney/travelJorney.css"
 //import MemeGeneretor from './memeGeneretor/memeGeneretor';
 //import "./memeGeneretor/memeGenerator.css"
-import AddItem from "./addItem/addItem"
-import "./addItem/addItem.css"
+//import AddItem from "./addItem/addItem"
+//import "./addItem/addItem.css"
 //import ColorPicker from './colorPicker/colorPicker';
 //import "./colorPicker/colorPicker.css"
+import Profile from "./profile/profile"
+import "./profile/profile.css"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AddItem/>
+    <Profile/>
   </React.StrictMode>
 );
 

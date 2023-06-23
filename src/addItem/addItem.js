@@ -50,7 +50,7 @@ import React, { useState } from "react";
       <div className="containerP">
          {item.map(element =>{
           return <div>
-            {element}
+            <p>{element}</p>
           </div>
          })}
       </div>
