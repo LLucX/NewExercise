@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
-  const AddItem = () => {
+   const AddItem = () => {
     
-    const arryitem = ["thing1","thing2","thing3"]
+    /*const arryitem = ["thing1","thing2","thing3"]
     const [item, setItem] = useState(arryitem);
     const [num, setNum] = useState(4)
 
@@ -23,7 +23,24 @@ import React, { useState } from "react";
         newItems.splice(index, 1);
         return newItems;
       });
-    };
+    }; */
+
+
+    const items = ["item 1","item 2","item 3"]
+
+    const [item,setItem] = useState(items);
+    const [num,setNum] = useState(4);
+
+
+    const addItem = () =>{
+      const newItem = "item " + num
+      setItem(prevItem => [...prevItem, newItem])
+      setNum(prevNum => prevNum + 1)
+    }
+
+
+
+
 
 
 
@@ -31,12 +48,11 @@ import React, { useState } from "react";
     <body>
       <button onClick={addItem} >add item</button>
       <div className="containerP">
-        {item.map((element,index)=>{
-          return <div key={index} className="item">
-            <p>{index +1 +") " + element}</p>
-            <span onClick={() => removeItem(index)} className="delete">x</span>
+         {item.map(element =>{
+          return <div>
+            {element}
           </div>
-        })}
+         })}
       </div>
     </body>
   ); 
