@@ -18,14 +18,16 @@ import reportWebVitals from './reportWebVitals';
 //import "./addItem/addItem.css"
 //import ColorPicker from './colorPicker/colorPicker';
 //import "./colorPicker/colorPicker.css"
-import Profile from "./profile/profile"
-import "./profile/profile.css"
+//import Profile from "./profile/profile"
+//import "./profile/profile.css"
+import Counter from './counter/count';
+import "./counter/count.css"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Profile/>
+    <Counter/>
   </React.StrictMode>
 );
 

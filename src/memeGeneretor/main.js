@@ -1,18 +1,29 @@
-import React from "react";
+import {useState} from "react";
 
 import memeData from "./memesData"
 
 
 
 
-const main = (props) => {
+const Main = () => {
+
+  const [meme, setMeme] = useState({
+    topTetx: "",
+    bottomText: "",
+    memeImamge: memeData[0].image
+  })
+
+  const [allMemmeImages, setMemmeImages] = useState(memeData)
 
 
     const getImage = ()=>{
         const memeArr = memeData
         const random = Math.floor(Math.random() * memeArr.length)
         const urlUpdated = memeArr[random].image
-        return urlUpdated
+        setMeme(prev => ({
+            ...prev,
+            memeImamge: urlUpdated
+        }))
     }
 
    
@@ -30,7 +41,7 @@ const main = (props) => {
                 </div>
                 <div className="image-container">
                     <p className="one">SHUT UP</p>
-                    <img src="edf" alt="memePhoto" />
+                    <img src={meme.memeImamge} alt="memePhoto" />
                     <p className="two">AND TAKE MY MONEY</p>
                 </div>
             </div>
@@ -40,4 +51,4 @@ const main = (props) => {
 
 
 
-export default main
+export default Main

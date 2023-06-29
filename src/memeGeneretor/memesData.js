@@ -1,31 +1,29 @@
-import React from "react";
-
 
 const memesData = [
     {
         id: 1,
         name: "meme1",
-        image: "./public/memeImage/meme1.jpg",
+        image: "./memeImage/meme1.jpg",
     },
     {
         id: 2,
         name: "meme2",
-        image: "./public/memeImage/meme2.jpg",
+        image: "./memeImage/meme2.jpg",
     },
     {
         id: 3,
         name: "meme3",
-        image: "./public/memeImage/meme3.jpg",
+        image: "./memeImage/meme3.jpg",
     },
     {
         id: 4,
         name: "meme4",
-        image: "./public/memeImage/meme4.jpg",
+        image: "./memeImage/meme4.jpeg",
     },
     {
         id: 5,
         name: "meme5",
-        image: "./public/memeImage/meme5.jpg",
+        image: "./memeImage/meme5.jpeg",
 
     }
 ]
