@@ -1,12 +1,18 @@
 import NavBar from "./components/navBar"
 import Table from "./components/table"
+import Button from "./components/button"
+import data from "./data/data"
 import "./app.css"
-import {useState} from "react"
+
+
+const mainData = {...data}
 
  
 
 const App = () =>{
 
+
+    
     
 
     return(
@@ -15,7 +21,10 @@ const App = () =>{
             <NavBar />
         </div>
         <div className="table">
-            <Table/>
+            <Table name={mainData.name} surname={mainData.surname} email={mainData.email}/>
+        </div>
+        <div className="btn">
+            <Button/>
         </div>
         </div>
     )

@@ -2,8 +2,22 @@
 
 const data = [
     {
-        name : "lucas",
-        surname : "prates",
-        email : "lucas@gmail.com"
+        name : "Lucas",
+        surname : "Prates",
+        email : "Lucas@gmail.com"
+    },
+    {
+        name : "Mario",
+        surname : "Santorelli",
+        email : "Mario@gmail.com"
+    },
+    {
+        name : "Giovanni",
+        surname : "De Grazia",
+        email : "Giovanni@gmail.com"
     }
 ]
+
+
+
+export default data
