@@ -3,30 +3,24 @@ import logoProfile from "./profileLogo.svg"
 import starLogo from "./starLogo.svg"
 
 
-const Profile = () =>{
 
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
-
-
-
-return(
-    <body>
-        <div className="card-container">
-            <div className="profile-container" >
-                <img src={logoProfile} alt="logoProfile"/>
-            </div>
-            <img src={starLogo} alt="star"/>
-            <h3> name surname </h3>
-            <p>(27)551845114</p>
-            <p>email@Something.com</p>
-        </div>
-    </body>
-)
-
-
-
-
+function BasicExample() {
+  return (
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={logoProfile} />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+    </Card>
+  );
 }
 
-
-export default Profile
+export default BasicExample;

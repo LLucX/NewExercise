@@ -9,32 +9,8 @@ html{
 }
 
 
-body{
- position: absolute;
- position: relative;
- top: 100px;
- width: 400px;
- height: 500px;  
- background-color: aliceblue;
-}
-
-.card-container{
-    position: absolute;
-    top: 0;
-    width: 100%;
-    background-color: black;
-
-}
-
-.profile-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-}
-
-.profile-container img{
-    width: 40%;
+Card.Img{
+    width: 4000px;
 }
 
 

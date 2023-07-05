@@ -19,17 +19,17 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 //import "./addItem/addItem.css"
 //import ColorPicker from './colorPicker/colorPicker';
 //import "./colorPicker/colorPicker.css"
-//import Profile from "./profile/profile"
-//import "./profile/profile.css"
+import Profile from "./profile/profile"
+import "./profile/profile.css"
 //import Counter from './counter/count';
 //import "./counter/count.css"
-import App from "./form/app"
+//import App from "./form/app"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App/>
+    <Profile/>
   </React.StrictMode>
 );
 
